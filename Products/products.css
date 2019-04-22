@@ -1,0 +1,17 @@
+.product-image-container:link {
+	display: block;
+}
+.product-image-container:visited {
+	display: none;
+}
+@media screen and (max-width: 450px) {
+	.product-image {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 450px) {
+	.product-image {
+		width: 70%;
+	}
+}
